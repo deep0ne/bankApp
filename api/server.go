@@ -7,11 +7,11 @@ import (
 
 // HTTP запросы для банковского сервиса
 type Server struct {
-	store  *db.Store // для взаимодействия с бд
+	store  db.Store // для взаимодействия с бд
 	router *gin.Engine
 }
 
-func NewServer(store *db.Store) *Server {
+func NewServer(store db.Store) *Server {
 	server := &Server{store: store}
 	router := gin.Default()
 
