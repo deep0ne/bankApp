@@ -32,7 +32,7 @@ CRUD операции реализованы при помощи sqlc - https://
 
 ## Инструкция по сборке
 Все необходимые инструкции находятся в Makefile. Последовательность:
-1. `make postgres` - запуск контейнера с бд postgresql
+1. `make postgres` - запуск docker контейнера с бд postgresql
 2. `make createdb` - создание базы данных
 3. `make migrateup` - наполнение базы данных
 4. `make server` - запуск сервера на localhost
