@@ -3,7 +3,7 @@ bankApp - простая банковская система, позволяющ
 
 # Backend
 ## RESTful API
-Приложение реализует RESTful архитектуру при помощи `Gin` - https://github.com/gin-gonic/gin.
+В bankApp реализована RESTful API при помощи веб-фреймворка `Gin` - https://github.com/gin-gonic/gin.
 
 Реализованы `GET`, `POST`, `UPDATE` и `DELETE` запросы.
 
